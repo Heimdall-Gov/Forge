@@ -10,25 +10,25 @@ Organizations developing or deploying AI systems face increasing regulatory requ
 
 ## User Needs
 
-Organizations need guidance on which AI governance practices apply to their specific use cases
+- Organizations need guidance on which AI governance practices apply to their specific use cases
 
-Teams need practical, actionable checklists for implementing governance measures
+- Teams need practical, actionable checklists for implementing governance measures
 
-Users need to understand regulatory requirements without specialized legal expertise
+- Users need to understand regulatory requirements without specialized legal expertise
 
-Organizations need help adapting existing frameworks to their specific context
+- Organizations need help adapting existing frameworks to their specific context
 
 # Solution Overview
 
 Our AI Governance Framework Generator will:
 
-Collect relevant information about the user's AI project or organization through a structured questionnaire
+- Collect relevant information about the user's AI project or organization through a structured questionnaire
 
-Use a RAG (Retrieval-Augmented Generation) system to access a comprehensive database of AI governance frameworks and best practices
+- Use a RAG (Retrieval-Augmented Generation) system to access a comprehensive database of AI governance frameworks and best practices
 
-Generate customized governance recommendations and implementation checklists based on the user's responses
+- Generate customized governance recommendations and implementation checklists based on the user's responses
 
-Provide explanations and context for recommended practices
+- Provide explanations and context for recommended practices
 
 # Target Users
 
@@ -42,158 +42,158 @@ Tertiary: Researchers and policymakers studying AI governance implementation
 
 ## Input Process
 
-Users will answer a series of questions about their:
+-Users will answer a series of questions about their:
 
-Organization type and size
+ - Organization type and size
 
-Industry and regulatory environment
+ - Industry and regulatory environment
 
-AI use cases and applications
+ - AI use cases and applications
 
-Data sources and types
+ - Data sources and types
 
-Deployment context
+ - Deployment context
 
-Existing governance measures
+ - Existing governance measures
 
-The interface will adapt questions based on previous answers to ensure relevance
+- The interface will adapt questions based on previous answers to ensure relevance
 
-Users can save progress and return to complete the questionnaire
+- Users can save progress and return to complete the questionnaire
 
 ## Output
 
-Customized AI governance framework document with:
+- Customized AI governance framework document with:
 
-Executive summary
+ - Executive summary
 
-Governance structure recommendations
+ - Governance structure recommendations
 
-Risk assessment methodology
+ - Risk assessment methodology
 
-Documentation requirements
+ - Documentation requirements
 
-Testing and validation procedures
+ - Testing and validation procedures
 
-Monitoring and maintenance guidelines
+ - Monitoring and maintenance guidelines
 
-Implementation checklists organized by:
+- Implementation checklists organized by:
 
-Project phase (design, development, deployment, monitoring)
+ - Project phase (design, development, deployment, monitoring)
 
-Responsible role (technical team, legal, management)
+ - Responsible role (technical team, legal, management)
 
-Priority level
+ - Priority level
 
-References to source frameworks and regulatory requirements
+- References to source frameworks and regulatory requirements
 
 # Technical Requirements
 
 ## RAG System
 
-Document database containing:
+- Document database containing:
 
-Established AI governance frameworks (e.g., NIST AI RMF, EU AI Act, IEEE standards)
+ - Established AI governance frameworks (e.g., NIST AI RMF, EU AI Act, IEEE standards)
 
-Industry-specific best practices and requirements
+ - Industry-specific best practices and requirements
 
-Regulatory guidance documents
+ - Regulatory guidance documents
 
-Academic papers and case studies
+ - Academic papers and case studies
 
-Vector embedding system for efficient retrieval of relevant content
+- Vector embedding system for efficient retrieval of relevant content
 
-Generation component to synthesize and customize frameworks
+- Generation component to synthesize and customize frameworks
 
 ## User Interface
 
-Web-based questionnaire interface
+- Web-based questionnaire interface
 
-Progress tracking and save functionality
+- Progress tracking and save functionality
 
-Export options (PDF, Markdown, HTML)
+- Export options (PDF, Markdown, HTML)
 
-Interactive checklists that users can modify and track
+- Interactive checklists that users can modify and track
 
 ## Open Source Components
 
-Framework database (with regular updates)
+- Framework database (with regular updates)
 
-RAG implementation code
+- RAG implementation code
 
-Question template system
+- Question template system
 
-Output formatters
+- Output formatters
 
 # Metrics & Success Criteria
 
-Adoption metrics: Number of organizations using the tool
+- Adoption metrics: Number of organizations using the tool
 
-Engagement metrics: Completion rate of questionnaires, return usage
+- Engagement metrics: Completion rate of questionnaires, return usage
 
-Quality metrics: User ratings of framework relevance and usefulness
+- Quality metrics: User ratings of framework relevance and usefulness
 
-Impact metrics: Improvements in governance implementation (via follow-up surveys)
+- Impact metrics: Improvements in governance implementation (via follow-up surveys)
 
 # Development Roadmap
 
 ## Phase 1: Foundation
 
-Develop questionnaire structure and initial questions
+- Develop questionnaire structure and initial questions
 
-Build framework database with basic AI governance materials
+- Build framework database with basic AI governance materials
 
-Implement core RAG system
+- Implement core RAG system
 
-Create basic web interface
+- Create basic web interface
 
 ## Phase 2: Enhancement
 
-Expand framework database with more specialized resources
+- Expand framework database with more specialized resources
 
-Improve question flow and adaptability
+- Improve question flow and adaptability
 
-Enhance output customization
+- Enhance output customization
 
-Add interactive checklist functionality
+- Add interactive checklist functionality
 
 ## Phase 3: Refinement
 
-Implement user feedback mechanisms
+- Implement user feedback mechanisms
 
-Add collaboration features for team input
+- Add collaboration features for team input
 
-Create framework version control and updates
+- Create framework version control and updates
 
-Develop API for integration with other tools
+- Develop API for integration with other tools
 
 # Open Questions & Risks
 
 ## Open Questions
 
-How to balance comprehensiveness with usability?
+- How to balance comprehensiveness with usability?
 
-How to handle conflicting recommendations from different frameworks?
+- How to handle conflicting recommendations from different frameworks?
 
-How to verify the quality and accuracy of generated frameworks?
+- How to verify the quality and accuracy of generated frameworks?
 
-How to keep the framework database current with evolving regulations?
+- How to keep the framework database current with evolving regulations?
 
 ## Risks
 
-Quality risk: Generated frameworks may not address all relevant concerns
+- Quality risk: Generated frameworks may not address all relevant concerns
 
-Regulatory risk: Users may over-rely on tool recommendations without expert review
+- Regulatory risk: Users may over-rely on tool recommendations without expert review
 
-Data risk: Incomplete or outdated framework database could lead to gaps
+- Data risk: Incomplete or outdated framework database could lead to gaps
 
-Usability risk: Complex questionnaire may lead to user abandonment
+- Usability risk: Complex questionnaire may lead to user abandonment
 
 # Next Steps
 
-Create initial framework database structure
+- Create initial framework database structure
 
-Develop questionnaire prototype
+- Develop questionnaire prototype
 
-Seek input from AI governance experts
+- Seek input from AI governance experts
 
-Define contribution guidelines for the open source community
+- Define contribution guidelines for the open source community
