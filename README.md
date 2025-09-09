@@ -61,7 +61,7 @@ OPENAI_API_KEY=your_key_here
 ANTHROPIC_API_KEY=your_key_here
 
 # Model selection
-LLM_MODEL=gpt-4-turbo-preview  # or claude-3-opus-20240229
+LLM_MODEL=gpt-5
 ```
 
 ## Adding Custom Frameworks
