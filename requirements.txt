@@ -25,3 +25,9 @@ httpx==0.26.0
 
 # Optional: Frontend (if using Streamlit for quick UI)
 # streamlit==1.31.0
+
+# Testing Dependencies
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
