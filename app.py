@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 from typing import Dict, Any, Optional
+from contextlib import asynccontextmanager
 import os
 from datetime import datetime
 from pathlib import Path
@@ -34,10 +35,23 @@ from database import (
 )
 from sqlalchemy.orm import Session
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Lifespan event handler for startup and shutdown"""
+    # Startup: Initialize database
+    init_db()
+    print("Database initialized successfully")
+    yield
+    # Shutdown: cleanup if needed
+    pass
+
+
 app = FastAPI(
     title="AI Compliance Assessment Platform",
     description="Automated compliance assessment tool for EU AI Act and NIST AI RMF",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
 # CORS middleware
@@ -48,13 +62,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Initialize database on startup
-@app.on_event("startup")
-async def startup_event():
-    """Initialize database tables on application startup"""
-    init_db()
-    print("Database initialized successfully")
 
 # Initialize assessment engine (singleton)
 assessment_engine = AssessmentEngine()
@@ -523,4 +530,4 @@ def generate_markdown_report(result: Dict[str, Any], org_name: str) -> str:
 if __name__ == "__main__":
     import uvicorn
     port = int(os.getenv("PORT", 8000))
-    uvicorn.run(app, host="0.0.0.0", port=port, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=port, reload=True)
