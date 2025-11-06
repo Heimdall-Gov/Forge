@@ -95,6 +95,31 @@ Once running, visit:
 - Interactive API docs: `http://localhost:8000/docs`
 - Alternative docs: `http://localhost:8000/redoc`
 
+### Frontend (Web UI)
+
+A modern, sophisticated web interface is available in the `frontend/` directory.
+
+**Quick Start:**
+
+```bash
+# Install Node.js 18+ first, then:
+cd frontend
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+The frontend will be available at `http://localhost:3000`
+
+**Features:**
+- 🎨 Modern, responsive design with Tailwind CSS
+- ⚡ Real-time assessment status polling
+- 📊 Interactive results dashboard with gap analysis
+- 📥 PDF export functionality
+- 📱 Mobile-friendly interface
+
+See [`frontend/README.md`](frontend/README.md) for detailed documentation.
+
 ## Architecture
 
 ```
@@ -104,6 +129,14 @@ forge/
 ├── questionnaire.py            # Question definitions and filtering
 ├── database.py                 # SQLAlchemy models and CRUD operations
 ├── cross_framework_mapping.py  # EU-NIST framework mapping
+├── frontend/                   # Next.js web interface
+│   ├── src/
+│   │   ├── app/                # Next.js app router pages
+│   │   ├── components/         # React components
+│   │   ├── lib/                # API client & utilities
+│   │   └── types/              # TypeScript types
+│   ├── package.json
+│   └── README.md
 ├── framework-docs/             # Framework reference documents
 │   ├── eu-ai-act/
 │   │   ├── classification.txt  # Articles 5, 6, Annex III
