@@ -5,14 +5,14 @@ python-multipart==0.0.6
 
 # Database
 sqlalchemy==2.0.25
-psycopg2-binary==2.9.9  # PostgreSQL adapter (optional, fallback to SQLite)
+psycopg2-binary==2.9.11  # PostgreSQL adapter (optional, fallback to SQLite)
 
 # LLM Providers
 anthropic==0.18.0
 openai==1.12.0  # Optional, for future multi-provider support
 
 # Data Validation
-pydantic==2.5.3
+pydantic>=2.8.0
 
 # Document Processing & Export
 markdown==3.5.2
