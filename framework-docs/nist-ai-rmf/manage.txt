@@ -1,0 +1,155 @@
+# NIST AI Risk Management Framework - MANAGE Function
+# Target: ~10,000 tokens
+# TODO: Add full text from official NIST AI RMF 1.0
+
+# The MANAGE function entails allocating risk resources to mapped and measured risks on a regular basis and as defined by the GOVERN function.
+
+# PLACEHOLDER CONTENT FOR DEVELOPMENT
+# This is a simplified version for testing purposes
+
+MANAGE FUNCTION OVERVIEW:
+The MANAGE function involves:
+- Responding to identified risks
+- Allocating resources for risk mitigation
+- Implementing controls and safeguards
+- Planning for incidents and failures
+- Continuously improving risk management
+
+MANAGE.1: RISK RESPONSE
+MANAGE.1.1: Risk response plans are implemented.
+- Response strategies are defined
+- Actions are prioritized
+- Resources are allocated
+- Timelines are established
+- Responsibilities are assigned
+
+MANAGE.1.2: Risks are monitored and mitigated on an ongoing basis.
+- Continuous monitoring occurs
+- Mitigation effectiveness is assessed
+- Adjustments are made as needed
+- New risks are addressed
+- Risk levels are tracked
+
+MANAGE.1.3: Risk treatments, including response and recovery, are documented and demonstrated.
+- Treatment approaches are recorded
+- Response procedures are documented
+- Recovery plans are established
+- Demonstrations of effectiveness exist
+- Lessons learned are captured
+
+MANAGE.1.4: Negative residual risks of AI systems are managed.
+- Residual risks are identified
+- Acceptance decisions are documented
+- Additional controls are considered
+- Monitoring of residual risks occurs
+- Communication of residual risks is clear
+
+MANAGE.2: INCIDENT RESPONSE AND RECOVERY
+MANAGE.2.1: Procedures are followed to respond to and recover from a previously unknown risk when it is identified.
+- Incident response plans exist
+- Unknown risk protocols are defined
+- Response teams are prepared
+- Recovery procedures are documented
+- Post-incident reviews occur
+
+MANAGE.2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems.
+- Value monitoring occurs
+- Maintenance procedures exist
+- Updates are managed
+- Performance is sustained
+- Degradation is addressed
+
+MANAGE.2.3: Incidents and errors are communicated to relevant personnel and stakeholders.
+- Communication protocols exist
+- Stakeholders are notified
+- Transparency is maintained
+- Timely communication occurs
+- Appropriate detail is provided
+
+MANAGE.2.4: Organizational practices and procedures for AI system decommissioning are established and documented.
+- Decommissioning plans exist
+- Data retention is addressed
+- System retirement is managed
+- Stakeholder communication occurs
+- Knowledge transfer is ensured
+
+MANAGE.3: CONTINUOUS IMPROVEMENT
+MANAGE.3.1: AI risks and trustworthiness issues are regularly monitored and evaluated.
+- Regular assessments occur
+- Issues are tracked
+- Trends are analyzed
+- Emerging risks are identified
+- Trustworthiness is monitored
+
+MANAGE.3.2: Feedback from those external to the organization about trust, trustworthiness, and responsible AI is appropriately integrated into AI risk management.
+- External feedback is collected
+- Stakeholder input is valued
+- Integration processes exist
+- Improvements are made
+- Communication is bidirectional
+
+MANAGE.3.3: Lessons learned from incidents and continuous monitoring are incorporated into organizational policies and practices.
+- Incident reviews occur
+- Root causes are identified
+- Lessons are documented
+- Policies are updated
+- Practices are improved
+
+MANAGE.4: GOVERNANCE INTEGRATION
+MANAGE.4.1: AI risk management is integrated into organization-wide risk management processes.
+- Integration is systematic
+- Coordination occurs
+- Reporting is unified
+- Risk aggregation happens
+- Enterprise view is maintained
+
+MANAGE.4.2: Oversight structures are in place to govern AI risk management decisions.
+- Governance bodies exist
+- Authority is clear
+- Decision processes are defined
+- Accountability is established
+- Reviews are regular
+
+MANAGE.4.3: AI system risks are prioritized based on likelihood and impact assessments, organizational risk tolerance, and organizational policies.
+- Prioritization framework exists
+- Risk rankings are established
+- Resource allocation reflects priorities
+- Risk tolerance guides decisions
+- Regular reprioritization occurs
+
+MANAGE.5: DOCUMENTATION AND TRANSPARENCY
+MANAGE.5.1: AI system documentation is kept up to date.
+- Documentation maintenance occurs
+- Updates are systematic
+- Version control is used
+- Currency is ensured
+- Access is managed
+
+MANAGE.5.2: Mechanisms for stakeholders to access and provide feedback on AI system documentation are established.
+- Access mechanisms exist
+- Feedback channels are open
+- Stakeholder input is valued
+- Documentation improves
+- Transparency is promoted
+
+MANAGE.5.3: Risk treatments and any updates to them are documented and communicated to relevant personnel and stakeholders.
+- Treatment documentation exists
+- Updates are tracked
+- Communication is clear
+- Stakeholders are informed
+- Records are maintained
+
+MANAGE.6: RESOURCE ALLOCATION
+MANAGE.6.1: Resources are allocated to address identified AI risks based on risk priorities.
+- Budget allocation occurs
+- Personnel are assigned
+- Tools are provided
+- Time is allocated
+- Priorities drive allocation
+
+MANAGE.6.2: Ongoing monitoring and periodic review of resource allocation for AI risk management are conducted.
+- Allocation effectiveness is assessed
+- Adjustments are made
+- Gaps are identified
+- Reallocation occurs as needed
+- Efficiency is monitored

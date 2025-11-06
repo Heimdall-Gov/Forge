@@ -1,0 +1,131 @@
+# NIST AI Risk Management Framework - GOVERN Function
+# Target: ~15,000 tokens
+# TODO: Add full text from official NIST AI RMF 1.0
+
+# The GOVERN function emphasizes policies, processes, procedures, and practices across the organization
+# related to the mapping, measuring, and managing of AI risks.
+
+# PLACEHOLDER CONTENT FOR DEVELOPMENT
+# This is a simplified version for testing purposes
+
+GOVERN FUNCTION OVERVIEW:
+The GOVERN function emphasizes how organizations can cultivate and operationalize a culture of risk management with respect to AI systems. This function addresses:
+- Organizational structures and processes
+- Policies and procedures for AI risk management
+- Accountability and responsibility
+- Resource allocation
+- Risk tolerance and prioritization
+
+GOVERN.1: POLICIES, PROCESSES, AND PROCEDURES
+GOVERN.1.1: Legal and regulatory requirements involving AI are understood, managed, and documented.
+- Organizations identify and document applicable laws, regulations, and requirements
+- Legal requirements are mapped to AI system capabilities and limitations
+- Compliance obligations are regularly reviewed and updated
+- Documentation of legal requirements is maintained and accessible
+
+GOVERN.1.2: The characteristics of trustworthy AI are integrated into organizational policies, processes, and procedures.
+- Trustworthiness characteristics (safety, security, resilience, fairness, privacy, transparency, accountability, explainability) are defined
+- These characteristics are embedded in organizational policies
+- Processes ensure consistent application across AI lifecycle
+- Regular reviews ensure policies remain relevant
+
+GOVERN.1.3: Processes and procedures are in place to determine the needed level of risk management activities based on the organization's risk tolerance.
+- Risk tolerance is clearly defined and documented
+- Risk assessment processes are established
+- Risk management activities are proportional to risk level
+- Decision-making criteria for risk acceptance are documented
+
+GOVERN.1.4: The risk management process and its outcomes are established through transparent policies, procedures, and other controls.
+- Risk management processes are documented
+- Roles and responsibilities are clearly defined
+- Decision-making authority is established
+- Transparency mechanisms are in place
+
+GOVERN.1.5: Ongoing monitoring and periodic review of the risk management process and its outcomes are planned and organizational roles and responsibilities are clearly defined.
+- Monitoring processes are established
+- Review cycles are defined
+- Roles for monitoring and review are assigned
+- Escalation procedures are documented
+
+GOVERN.1.6: Mechanisms are in place to inventory AI systems and track their risks.
+- AI system inventory is maintained
+- Risk tracking systems are implemented
+- Metadata about AI systems is captured
+- Regular updates to inventory are ensured
+
+GOVERN.2: ACCOUNTABILITY AND RESPONSIBILITY
+GOVERN.2.1: Roles and responsibilities are clearly defined, understood, and documented.
+- Specific roles for AI governance are identified
+- Responsibilities for each role are documented
+- Authority levels are clearly defined
+- Handoffs between roles are documented
+
+GOVERN.2.2: Accountability structures are in place.
+- Clear lines of accountability exist
+- Escalation paths are defined
+- Performance metrics are established
+- Regular accountability reviews occur
+
+GOVERN.2.3: Workforce diversity, equity, inclusion, and accessibility considerations are factored into AI system design, development, and deployment.
+- Diversity goals for AI teams are established
+- Inclusive design practices are implemented
+- Accessibility requirements are defined
+- Regular diversity assessments are conducted
+
+GOVERN.3: ORGANIZATIONAL CULTURE AND AWARENESS
+GOVERN.3.1: Organizational policies, practices, and procedures foster a culture that aligns with organizational values and principles.
+- Values and principles for AI use are articulated
+- Culture reinforces trustworthy AI principles
+- Recognition systems align with values
+- Leadership models desired behaviors
+
+GOVERN.3.2: Training and resources are provided to enable personnel to understand and fulfill their AI-related responsibilities.
+- Training programs for AI risks are available
+- Resources for risk management are provided
+- Competency requirements are defined
+- Ongoing education is supported
+
+GOVERN.4: COMMUNICATION AND COLLABORATION
+GOVERN.4.1: Internal and external communication about AI system risks and impacts is clear, ongoing, and transparent.
+- Communication channels are established
+- Stakeholder communication plans exist
+- Risk communication is regular and timely
+- Transparency about AI use is maintained
+
+GOVERN.4.2: Relevant AI actors and stakeholders are identified, engaged, and involved throughout the AI system lifecycle.
+- Stakeholder identification process exists
+- Engagement mechanisms are in place
+- Feedback loops are established
+- Multi-stakeholder involvement is ensured
+
+GOVERN.4.3: Organizational teams are committed to a culture that considers and communicates AI risk.
+- Risk awareness is promoted
+- Open communication about risks is encouraged
+- Team collaboration on risk management exists
+- Cross-functional coordination occurs
+
+GOVERN.5: RISK TOLERANCE
+GOVERN.5.1: Organizational risk tolerance and risk-taking appetite are determined and communicated based on organizational values, norms, and culture.
+- Risk tolerance levels are defined
+- Risk appetite statements are documented
+- Alignment with organizational values exists
+- Regular reviews of risk tolerance occur
+
+GOVERN.5.2: Determination of the frequency of periodic review and updating of risk tolerance and risk appetite.
+- Review frequency is established
+- Triggers for updates are defined
+- Responsibility for reviews is assigned
+- Documentation of changes is maintained
+
+GOVERN.6: THIRD-PARTY CONSIDERATIONS
+GOVERN.6.1: Policies and procedures are in place for risk management of third-party entities, including AI system developers, vendors, suppliers, or users.
+- Third-party risk assessment processes exist
+- Vendor evaluation criteria are defined
+- Contractual requirements address AI risks
+- Ongoing monitoring of third parties occurs
+
+GOVERN.6.2: Third-party AI risks are assessed and managed on an ongoing basis.
+- Continuous monitoring of third-party risks
+- Regular third-party assessments
+- Incident response for third-party issues
+- Documentation of third-party risks

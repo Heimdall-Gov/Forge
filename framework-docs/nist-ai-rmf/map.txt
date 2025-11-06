@@ -1,0 +1,146 @@
+# NIST AI Risk Management Framework - MAP Function
+# Target: ~10,000 tokens
+# TODO: Add full text from official NIST AI RMF 1.0
+
+# The MAP function establishes the context to frame risks related to an AI system.
+
+# PLACEHOLDER CONTENT FOR DEVELOPMENT
+# This is a simplified version for testing purposes
+
+MAP FUNCTION OVERVIEW:
+The MAP function establishes the context for understanding risks associated with AI systems. This function helps organizations:
+- Understand the AI system's context of use
+- Identify potential impacts and harms
+- Categorize AI systems based on risk
+- Establish the foundation for risk assessment
+
+MAP.1: CONTEXT
+MAP.1.1: Intended purposes, potentially beneficial uses, context-specific laws, norms, and expectations, and prospective settings in which the AI system will be deployed are understood and documented.
+- Intended use cases are clearly defined
+- Beneficial applications are identified
+- Legal and regulatory context is understood
+- Expected deployment environments are documented
+- Stakeholder expectations are captured
+
+MAP.1.2: Interdependencies and associated risks among AI system components, systems, and infrastructure are understood and documented.
+- System dependencies are mapped
+- Integration points are identified
+- Infrastructure requirements are documented
+- Cascade risks are assessed
+- Supply chain dependencies are understood
+
+MAP.1.3: Scientific integrity and TEVV (Test, Evaluation, Verification, and Validation) considerations are identified and documented.
+- Testing requirements are defined
+- Evaluation criteria are established
+- Verification processes are planned
+- Validation approaches are documented
+- Scientific rigor is ensured
+
+MAP.1.4: Processes for operator and practitioner proficiency with AI system performance and trustworthiness are defined and documented.
+- Required competencies are identified
+- Training needs are assessed
+- Proficiency standards are established
+- Ongoing skill development is planned
+- Performance monitoring is defined
+
+MAP.1.5: Processes for human-AI configuration are defined and documented.
+- Human-AI interaction modes are specified
+- Decision-making authority is defined
+- Override capabilities are documented
+- Handoff procedures are established
+- Feedback mechanisms are planned
+
+MAP.2: CATEGORIZATION
+MAP.2.1: System requirements (e.g., "the system shall…") are specified and understood.
+- Functional requirements are documented
+- Performance requirements are defined
+- Safety requirements are specified
+- Security requirements are established
+- Quality attributes are identified
+
+MAP.2.2: Data and input quality requirements are specified, understood, and documented.
+- Data quality criteria are defined
+- Input validation requirements are established
+- Data completeness standards are set
+- Data accuracy requirements are specified
+- Bias assessment criteria are documented
+
+MAP.2.3: AI capabilities, targeted usage, goals, and expected benefits and costs compared with appropriate benchmarks are understood and documented.
+- System capabilities are clearly described
+- Performance goals are quantified
+- Expected benefits are articulated
+- Costs are estimated
+- Benchmarks for comparison are identified
+
+MAP.2.4: Risks and corresponding potential costs, benefits, and harms of AI system outcomes are examined and documented.
+- Potential harms are identified
+- Risk-benefit tradeoffs are analyzed
+- Cost implications are assessed
+- Harm mitigation strategies are considered
+- Stakeholder impacts are evaluated
+
+MAP.3: IMPACTS AND HARMS
+MAP.3.1: The potential negative impacts of AI systems are identified and documented.
+- Individual impacts are assessed
+- Community impacts are considered
+- Organizational impacts are evaluated
+- Societal impacts are examined
+- Environmental impacts are assessed
+
+MAP.3.2: Likelihood and magnitude of each identified impact are assessed.
+- Probability of occurrence is estimated
+- Severity of impact is evaluated
+- Frequency of occurrence is considered
+- Duration of impact is assessed
+- Scope of impact is determined
+
+MAP.3.3: Direct and downstream impacts of AI systems are examined and documented.
+- Immediate effects are identified
+- Secondary effects are anticipated
+- Long-term consequences are considered
+- Systemic impacts are evaluated
+- Unintended consequences are explored
+
+MAP.3.4: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established.
+- Reporting mechanisms are created
+- Appeal processes are defined
+- Feedback channels are established
+- Response procedures are documented
+- Remediation processes are planned
+
+MAP.3.5: Organizational risk tolerances and potential benefits are weighed against the severity and likelihood of potential harms, and informed by diverse perspectives.
+- Risk-benefit analysis is conducted
+- Multiple perspectives are sought
+- Stakeholder input is incorporated
+- Decision criteria are applied
+- Tradeoffs are documented
+
+MAP.4: CONTEXT AWARENESS
+MAP.4.1: Processes for tracking identified risks over time are in place.
+- Risk monitoring systems are implemented
+- Tracking metrics are defined
+- Reporting frequency is established
+- Risk trend analysis is conducted
+- Risk register is maintained
+
+MAP.4.2: Practices and personnel are in place to regularly incorporate information about emerging AI risks.
+- Information sources are identified
+- Scanning processes are established
+- Personnel are assigned
+- Update mechanisms are in place
+- Knowledge sharing is promoted
+
+MAP.5: SYSTEM REQUIREMENTS
+MAP.5.1: Approaches for mapping AI system requirements to relevant standards, frameworks, and procedures are documented.
+- Relevant standards are identified
+- Mapping methodology is defined
+- Gap analysis is conducted
+- Compliance requirements are documented
+- Update processes are established
+
+MAP.5.2: Documentation of system objectives, expected benefits, and related success metrics is in place.
+- Objectives are clearly stated
+- Benefits are quantified where possible
+- Success criteria are defined
+- Measurement methods are specified
+- Review processes are established
