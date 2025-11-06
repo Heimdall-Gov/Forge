@@ -1,0 +1,174 @@
+# NIST AI Risk Management Framework - MEASURE Function
+# Target: ~12,000 tokens
+# TODO: Add full text from official NIST AI RMF 1.0
+
+# The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts.
+
+# PLACEHOLDER CONTENT FOR DEVELOPMENT
+# This is a simplified version for testing purposes
+
+MEASURE FUNCTION OVERVIEW:
+The MEASURE function employs tools, techniques, and methodologies to:
+- Assess and monitor AI risks
+- Evaluate system performance
+- Test for trustworthiness characteristics
+- Track metrics over time
+- Validate risk management effectiveness
+
+MEASURE.1: RISK ASSESSMENT
+MEASURE.1.1: Appropriate methods and metrics are identified and applied.
+- Measurement methods are selected
+- Metrics are defined and validated
+- Tools are identified and deployed
+- Baseline measurements are established
+- Regular measurement cadence is set
+
+MEASURE.1.2: Appropriateness of AI system metrics and effectiveness of existing controls are regularly assessed and updated.
+- Metric relevance is reviewed
+- Control effectiveness is evaluated
+- Updates are made as needed
+- New metrics are introduced
+- Obsolete metrics are retired
+
+MEASURE.1.3: Internal experts, organizational risk tolerance, and other organizational policies inform risk measurement.
+- Expert judgment is incorporated
+- Risk tolerance informs thresholds
+- Organizational policies guide measurement
+- Cross-functional input is obtained
+- Contextual factors are considered
+
+MEASURE.2: TRUSTWORTHINESS CHARACTERISTICS
+MEASURE.2.1: Test sets, metrics, and details about the tools used during TEVV are documented.
+- Test datasets are described
+- Metrics are specified
+- Tools are documented
+- Testing procedures are recorded
+- Results are maintained
+
+MEASURE.2.2: Evaluations involving human subjects meet applicable requirements and include traceable documentation of consent.
+- Human subjects protocols are followed
+- Informed consent is obtained
+- Privacy protections are in place
+- Documentation is maintained
+- Ethical standards are met
+
+MEASURE.2.3: AI system performance and trustworthiness characteristics are demonstrated and assessed across the AI lifecycle and convey risk.
+- Performance is continuously assessed
+- Trustworthiness is evaluated
+- Lifecycle-wide measurement occurs
+- Risk implications are communicated
+- Trends are tracked
+
+MEASURE.2.4: Measurement results for AI system trustworthiness are informed by relevant domain knowledge.
+- Domain experts are consulted
+- Context-specific knowledge is applied
+- Industry standards are referenced
+- Best practices are incorporated
+- Lessons learned are integrated
+
+MEASURE.2.5: Mechanisms for stakeholders to provide input to the AI risk measurement process are established.
+- Stakeholder feedback channels exist
+- Input processes are documented
+- Multiple perspectives are sought
+- Feedback is incorporated
+- Engagement is ongoing
+
+MEASURE.2.6: Risk measurement activities and results are reproducible.
+- Measurement processes are documented
+- Data and methods are preserved
+- Results can be replicated
+- Version control is maintained
+- Audit trails exist
+
+MEASURE.2.7: AI system security risks are identified, assessed, and documented.
+- Security threats are analyzed
+- Vulnerabilities are assessed
+- Attack vectors are identified
+- Security metrics are tracked
+- Risk levels are documented
+
+MEASURE.2.8: Risks associated with transparency and accountability are identified and documented.
+- Explainability is assessed
+- Auditability is evaluated
+- Accountability mechanisms are tested
+- Documentation gaps are identified
+- Transparency risks are tracked
+
+MEASURE.2.9: Risks associated with AI system safety, bias, and robustness are identified and documented.
+- Safety hazards are assessed
+- Bias is measured and analyzed
+- Robustness is tested
+- Edge cases are explored
+- Failure modes are documented
+
+MEASURE.2.10: Privacy risks associated with AI systems are identified and documented.
+- Privacy impact assessments are conducted
+- Data minimization is evaluated
+- Re-identification risks are assessed
+- Consent mechanisms are reviewed
+- Privacy controls are tested
+
+MEASURE.2.11: Fairness, bias, and privacy risks in AI training, test, and production datasets are identified and documented.
+- Dataset composition is analyzed
+- Bias metrics are calculated
+- Representation gaps are identified
+- Privacy risks are assessed
+- Documentation is maintained
+
+MEASURE.2.12: Environmental impact and sustainability of AI systems are assessed.
+- Energy consumption is measured
+- Carbon footprint is calculated
+- Resource usage is tracked
+- Sustainability metrics are defined
+- Environmental risks are documented
+
+MEASURE.2.13: Feedback processes for end users and impacted communities about AI system impacts are established and integrated into AI system performance and trustworthiness metrics.
+- Feedback mechanisms are operational
+- User input is collected
+- Community concerns are documented
+- Metrics incorporate feedback
+- Continuous improvement occurs
+
+MEASURE.3: VALIDATION
+MEASURE.3.1: Approaches for performance calibration and threshold specification are examined and informed by domain knowledge.
+- Calibration methods are selected
+- Thresholds are established
+- Domain experts contribute
+- Context is considered
+- Regular recalibration occurs
+
+MEASURE.3.2: Approaches for measuring the AI system performance are applied in production.
+- Production monitoring is active
+- Real-world performance is tracked
+- Degradation is detected
+- Anomalies are identified
+- Performance trends are analyzed
+
+MEASURE.3.3: Verification and validation results are documented.
+- V&V activities are recorded
+- Results are preserved
+- Issues are tracked
+- Resolutions are documented
+- Evidence is maintained
+
+MEASURE.4: MONITORING
+MEASURE.4.1: Measurement results regarding AI risks are documented.
+- Risk measurements are recorded
+- Trends are tracked over time
+- Changes are documented
+- Baselines are established
+- Historical data is preserved
+
+MEASURE.4.2: Measurable performance improvements or declines are identified and documented.
+- Performance metrics are tracked
+- Improvements are recognized
+- Degradation is detected
+- Root causes are analyzed
+- Corrective actions are taken
+
+MEASURE.4.3: Feedback loops for continuous improvement are established and integrated into operations.
+- Continuous monitoring occurs
+- Feedback informs improvements
+- Lessons learned are applied
+- Processes are refined
+- Updates are systematic

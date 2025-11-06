@@ -1,15 +1,27 @@
+# Core Web Framework
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
-streamlit==1.31.0
-python-dotenv==1.0.0
-openai==1.12.0
-anthropic==0.18.0
-pypdf2==3.0.1
-langchain==0.1.6
-langchain-community==0.0.19
-langchain-openai==0.0.5
-pydantic==2.5.3
 python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9  # PostgreSQL adapter (optional, fallback to SQLite)
+
+# LLM Providers
+anthropic==0.18.0
+openai==1.12.0  # Optional, for future multi-provider support
+
+# Data Validation
+pydantic==2.5.3
+
+# Document Processing & Export
 markdown==3.5.2
 weasyprint==60.2
+pypdf2==3.0.1
+
+# Utilities
+python-dotenv==1.0.0
 httpx==0.26.0
+
+# Optional: Frontend (if using Streamlit for quick UI)
+# streamlit==1.31.0

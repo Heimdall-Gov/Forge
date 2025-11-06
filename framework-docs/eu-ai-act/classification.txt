@@ -1,0 +1,67 @@
+# EU AI Act - Classification Rules
+# This file should contain the full text of Articles 5, 6, and Annex III
+# Target: ~15,000 tokens
+
+# ARTICLE 5 - PROHIBITED AI PRACTICES
+# TODO: Add full text from official EU AI Act
+# Should include:
+# - Subliminal manipulation (Article 5.1.a)
+# - Exploitation of vulnerabilities (Article 5.1.b)
+# - Social scoring (Article 5.1.c)
+# - Biometric categorization (Article 5.1.d)
+# - Real-time remote biometric identification (Article 5.1.h)
+
+# ARTICLE 6 - CLASSIFICATION RULES FOR HIGH-RISK AI SYSTEMS
+# TODO: Add full text from official EU AI Act
+# Should include:
+# - AI systems that are safety components
+# - AI systems covered by EU legislation requiring third-party conformity assessment
+# - AI systems listed in Annex III
+
+# ANNEX III - HIGH-RISK AI SYSTEMS
+# TODO: Add full text from official EU AI Act
+# Should include all categories:
+# 1. Biometrics and categorization
+# 2. Critical infrastructure
+# 3. Education and vocational training
+# 4. Employment, workers management and access to self-employment
+# 5. Access to and enjoyment of essential private services and public services and benefits
+# 6. Law enforcement
+# 7. Migration, asylum and border control management
+# 8. Administration of justice and democratic processes
+
+# PLACEHOLDER CONTENT FOR DEVELOPMENT
+# This is a simplified version for testing purposes
+
+ARTICLE 5 - PROHIBITED PRACTICES:
+The following AI practices shall be prohibited:
+(a) Placing on the market, putting into service or using an AI system that deploys subliminal techniques
+(b) Placing on the market, putting into service or using an AI system that exploits vulnerabilities
+(c) Placing on the market, putting into service or using an AI system for social scoring
+(d) Using real-time remote biometric identification in publicly accessible spaces for law enforcement
+
+ARTICLE 6 - HIGH-RISK CLASSIFICATION:
+AI systems shall be considered high-risk if they meet the following criteria:
+1. The AI system is intended to be used as a safety component of a product
+2. The AI system is itself a product covered by EU legislation requiring third-party conformity assessment
+3. The AI system is listed in Annex III
+
+ANNEX III - HIGH-RISK AI SYSTEMS:
+1. Biometric identification and categorisation of natural persons
+2. Management and operation of critical infrastructure
+3. Education and vocational training
+4. Employment, workers management and access to self-employment
+   - Recruitment and selection of persons
+   - Decisions on promotion and termination
+   - Task allocation and monitoring
+5. Access to essential services
+   - Creditworthiness assessment
+   - Risk assessment and pricing for life and health insurance
+   - Emergency services dispatch
+6. Law enforcement
+   - Individual risk assessment for crime
+   - Polygraphs and similar tools
+   - Evaluation of reliability of evidence
+   - Predicting occurrence or reoccurrence of crimes
+7. Migration, asylum and border control
+8. Administration of justice and democratic processes
