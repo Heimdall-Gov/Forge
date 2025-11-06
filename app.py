@@ -12,9 +12,19 @@ import os
 from datetime import datetime
 from pathlib import Path
 import markdown
-from weasyprint import HTML
 import tempfile
 import uuid
+
+# Optional PDF export support
+try:
+    from weasyprint import HTML
+    PDF_EXPORT_AVAILABLE = True
+except (ImportError, OSError) as e:
+    PDF_EXPORT_AVAILABLE = False
+    print(f"⚠️  Warning: PDF export unavailable. WeasyPrint could not be loaded: {e}")
+    print("   The API will work without PDF export. To enable PDF export on macOS:")
+    print("   brew install pango gdk-pixbuf libffi")
+    print("   pip install weasyprint")
 
 from questionnaire import QuestionnaireResponse, get_questions
 from assessment_engine import AssessmentEngine
@@ -118,12 +128,15 @@ async def root():
         "name": "AI Compliance Assessment Platform API",
         "version": "1.0.0",
         "description": "Automated compliance assessment for EU AI Act and NIST AI RMF",
+        "features": {
+            "pdf_export_enabled": PDF_EXPORT_AVAILABLE
+        },
         "endpoints": {
             "/api/questions": "GET - Get questionnaire questions",
             "/api/assessment": "POST - Create new assessment",
             "/api/assessment/{id}": "GET - Get assessment by ID",
             "/api/assessment/{id}/status": "GET - Get assessment status",
-            "/api/assessment/{id}/pdf": "GET - Export assessment as PDF",
+            "/api/assessment/{id}/pdf": "GET - Export assessment as PDF" + (" (unavailable)" if not PDF_EXPORT_AVAILABLE else ""),
             "/health": "GET - Health check"
         }
     }
@@ -266,6 +279,14 @@ async def export_assessment_pdf(
     Returns:
         PDF file download
     """
+    # Check if PDF export is available
+    if not PDF_EXPORT_AVAILABLE:
+        raise HTTPException(
+            status_code=503,
+            detail="PDF export is unavailable. WeasyPrint dependencies are not installed. "
+                   "On macOS, install with: brew install pango gdk-pixbuf libffi"
+        )
+
     assessment = get_assessment(db, assessment_id)
 
     if not assessment:

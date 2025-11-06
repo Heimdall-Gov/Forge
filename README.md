@@ -44,7 +44,31 @@ cd Forge
 pip install -r requirements.txt
 ```
 
-3. **Set up environment variables:**
+3. **Optional: Enable PDF export** (requires system libraries)
+
+PDF export is optional. The API will work without it, but the `/api/assessment/{id}/pdf` endpoint will be unavailable.
+
+**macOS:**
+```bash
+brew install pango gdk-pixbuf libffi
+pip install weasyprint
+```
+
+**Linux (Debian/Ubuntu):**
+```bash
+sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libgdk-pixbuf2.0-0 libffi-dev
+pip install weasyprint
+```
+
+**Linux (RHEL/CentOS):**
+```bash
+sudo yum install -y pango gdk-pixbuf2 libffi-devel
+pip install weasyprint
+```
+
+For more details, see [WeasyPrint installation guide](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation).
+
+4. **Set up environment variables:**
 ```bash
 cp .env.example .env
 # Edit .env with your Anthropic API key
@@ -58,7 +82,7 @@ DATABASE_URL=sqlite:///./forge.db  # or PostgreSQL connection string
 PORT=8000
 ```
 
-4. **Run the application:**
+5. **Run the application:**
 ```bash
 python app.py
 ```
