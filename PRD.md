@@ -22,13 +22,15 @@ Organizations developing or deploying AI systems face increasing regulatory requ
 
 Our AI Governance Framework Generator will:
 
-- Collect relevant information about the user's AI project or organization through a structured questionnaire
+- Collect relevant information(approx 20 questions) about the user's AI project or organization through a structured questionnaire
 
 - Use a RAG (Retrieval-Augmented Generation) system to access a comprehensive database of AI governance frameworks and best practices
 
 - Generate customized governance recommendations and implementation checklists based on the user's responses
 
 - Provide explanations and context for recommended practices
+  
+- Map it to relevant frameworks
 
 # Target Users
 
